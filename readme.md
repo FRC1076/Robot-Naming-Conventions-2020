@@ -4,7 +4,7 @@
 
 When naming variables, use snake_case  
 When naming functions, use camelCase  
-When naming classes, use UpperCamelCase
+When naming classes, use UpperCamelCase  
 When naming constants, use ALL_CAPS_SNAKE_CASE  
 
 Never create something that already exists.
