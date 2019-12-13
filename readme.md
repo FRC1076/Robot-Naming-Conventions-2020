@@ -1,52 +1,46 @@
-### Robot Code Naming Conventions and General Pratice when Writing  Code
+### Robot Code Naming Conventions and General Pratices when Writing Code
 
 #### General 
 
-When naming variables, use snake_case
-
-When naming functions and classes, use camelCase
-
-When naming constantes, use ALL_CAPS_SNAKE_CASE
+When naming variables, use snake_case  
+When naming functions, use camelCase  
+When naming classes, use UpperCamelCase
+When naming constants, use ALL_CAPS_SNAKE_CASE  
 
 Never create something that already exists.
 
-Give descriptive comments
+Add descriptive comments to your code
 
-Do not create long, unreadble else-if chains
+Do not create long, unreadble chunks of code, unless there's literally no other way
 
-Never use non-variablized numbers in function calling
+Never use non-variablized numbers when calling functions
 
-Put everything (all ports, ect) in variables
+Store everything that's a number (all ports, ect) in variables to make them easy to change
 
-Actual use the created variables
-
-
+Make sure that every created variable is or will be used
 
 #### Github
 
-Allways create new branches for your projects
+Always create a new branch for your project
 
-Commits:
+Add yourself to issues that you're working on to avoid confusion
 
-Commit (and push) after every (WORKING) change
+Close issues after they've been solved
 
-Allways test your code before commiting
+#### Commits:
 
-Never push to master
+Commit and push after every (WORKING) change
 
+Always test your code before commiting it - it's your job to make sure your code works
+
+Never push to master (VSCode won't let you do this anyway)
 
 #### Robot-Specific
 
-Name the drivetrain drivetype_drive 
-
+Name the drivetrain drivetype_drive  
 Ex: omni_drive or arcade_drive
 
 Name the controllers 'driver' (port 0) and 'operator' (port 1)
 
-Name motors based on their position + type for individual, just position for groups
-
-Ex: self.left 
-or: self.leftTalon
-or: self.rightVictor
-
-
+Name motors based on their position + type for individual (self.leftTalon, self.rightVictor),  
+or just position for groups (self.left)
