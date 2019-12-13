@@ -1,6 +1,6 @@
 ### Robot Code Naming Conventions and General Pratices when Writing Code
 
-#### General 
+#### General:
 
 When naming variables, use snake_case  
 When naming functions, use camelCase  
@@ -19,7 +19,7 @@ Store everything that's a number (all ports, ect) in variables to make them easy
 
 Make sure that every created variable is or will be used
 
-#### Github
+#### Github:
 
 Always create a new branch for your project
 
@@ -35,7 +35,7 @@ Always test your code before commiting it - it's your job to make sure your code
 
 Never push to master (VSCode won't let you do this anyway)
 
-#### Robot-Specific
+#### Robot-Specific:
 
 Name the drivetrain drivetype_drive  
 Ex: omni_drive or arcade_drive
